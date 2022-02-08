@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add User</title>
+    <link rel="stylesheet" href="/stylesheet/addUser.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <a href="/"><span class="logo">User</span> </a>
+            </div>
+            <div>
+                <button class="goToUser"><a href="/users/new">Add User</a></button>
+            </div>
+        </div>
+        <form action="/users/<%= user._id%>/edit" method="POST">
+            <input type="text" name="name" placeholder="Enter Your Name" value="<%= user.name%>">
+            <input type="text" name="email" placeholder="Enter Your email" value="<%= user.email%>">
+            <input type="number" name="age" placeholder="Enter Your age" value="<%= user.age%>">
+            <input type="text" name="address" placeholder="Enter Your address" value="<%= user.address%>">
+            <textarea name="bio" id="" cols="30" rows="10" placeholder="Enter Your bio"><%= user.bio%></textarea>
+            <input type="text" name="hobbies" placeholder="Enter Your Hobbies" value="<%= user.hobbies%>">
+            <button type="submit">Update User</button>
+        </form>
+    </div>
+</body>
+</html>   
