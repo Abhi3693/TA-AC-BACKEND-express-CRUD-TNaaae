@@ -1,0 +1,15 @@
+.btn{
+    padding: 20px;
+    background-color: gray;
+    border: 2px solid rgb(15, 77, 152);
+    border-radius: 10px;
+    width: fit-content;
+}
+a{
+    text-decoration: none;
+    font-size: 26px;
+    color: lightgray;
+}
+.container{
+    text-align: center;
+}
