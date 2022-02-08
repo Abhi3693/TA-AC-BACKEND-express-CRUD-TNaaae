@@ -1,0 +1,41 @@
+.logo{
+    color: rgb(44, 44, 179);
+    font-size: 50px;
+    margin-left: 50px;
+}
+.header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.goToUser{
+    margin-right: 50px;
+    background-color: gray;
+    border-radius: 10px;
+    border: 2px solid rgb(99, 11, 11);
+    padding: 5px 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+section{
+    text-align: center;
+}
+
+h1{
+    color: lightgray;
+    font-size: 36px;
+    font-weight: 600;
+}
+.allUsers{
+    padding: 20px;
+    background-color: lightgray;
+    border-bottom: 2px dotted gray;
+}
+a{
+    text-decoration: none;
+    font-size: 26px;
+    padding: 5px 10px;
+}
